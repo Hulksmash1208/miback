@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
 });
 app.get ('/pokemons', (req,res)=>{
 
-let pokeIds= [3,6,9,130];
+let pokeIds= [3,6,9,130, 150,151];
 
 let promesasIncompletas = pokeIds.map((id)=>{
 
